@@ -56,13 +56,13 @@ const routes = [
     },
     // 增加的部分
     {
-        path: '/mocro-first/:page*',
-        name: 'mocro-first',
+        path: '/micro-first/:page*',
+        name: 'micro-first',
         component: () => import('../views/micro-first.vue'),
     },
     {
-        path: '/mocro-second/:page*',
-        name: 'mocro-second',
+        path: '/micro-second/:page*',
+        name: 'micro-second',
         component: () => import('../views/micro-second.vue'),
     }
 ]
