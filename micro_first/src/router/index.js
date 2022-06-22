@@ -17,7 +17,6 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  base: window.__MICRO_APP_BASE_ROUTE__ || '/',
   mode: 'history',
   routes
 })

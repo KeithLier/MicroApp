@@ -3,7 +3,7 @@ import Home from '../components/HelloWorld.vue'
 
 const routes = [
     {
-        path: '/',
+        path: window.__MICRO_APP_BASE_ROUTE__ || '/',
         name: 'Home',
         component: Home
     },
@@ -11,6 +11,7 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
+  mode: "history",
   routes
 })
 
