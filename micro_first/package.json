@@ -26,6 +26,9 @@
     "env": {
       "node": true
     },
+    "globals": {
+      "__webpack_public_path__": true
+    },
     "extends": [
       "plugin:vue/vue3-essential",
       "eslint:recommended"

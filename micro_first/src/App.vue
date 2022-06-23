@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <button>11111</button>
     <router-view></router-view>
   </div>
   
